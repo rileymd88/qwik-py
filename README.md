@@ -1,6 +1,5 @@
 # Qwik Py
-Qwik Py is a small library of python scripts which can help automate certain tasks within a Qlik Sense Environment. The solution is based off   
-Clint Carr's python wrapper for the Qlik Sense Repository Service found here: https://github.com/clintcarr/qrspy
+Qwik Py is a small library of python scripts which can help automate certain tasks within a Qlik Sense Environment. The solution is based off Clint Carr's python wrapper for the Qlik Sense Repository Service found here: https://github.com/clintcarr/qrspy
 
 ## Installation
 1. These instructions are intended for installing these scripts directly on the Qlik Sense Server
