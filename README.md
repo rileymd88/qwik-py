@@ -11,6 +11,8 @@ Qwik Py is a small library of python scripts which can help automate certain tas
 7. You should now be able to run the scripts!
 
 ## Running the Scripts
+**Make sure to open the terminal as an administrator before running these scripts!**
+
 - `Script Name:` **export_apps.py**
 - `Script Description:` This script will automatically export ALL Qlik Sense apps and export them to a folder of your choice
 - `Paramaters`
