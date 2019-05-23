@@ -18,25 +18,25 @@ Clint Carr's python wrapper for the Qlik Sense Repository Service found here: ht
   - `filepath: ` Example) C:\Data
   - `exportData` Example) true
 - `Full Script Example`: python export_apps.py C:\Data false
-\
+<br/>
 - `Script Name:` **export_extensions.py**
 - `Script Description:` This script will automatically export ALL Qlik Sense extensions
 - `Paramaters`
   - `filepath: ` Example) C:\Data
 - `Full Script Example`: python export_extensions.py C:\Data
-\
+<br/>
 - `Script Name:` **import_apps.py**
 - `Script Description: ` This script will automatically import all Qlik sense apps within a folder of your choice
 - `Paramaters`
   - `filepath` Example) C:\Data
 - `Full Script Example`: python import_apps.py C:\Data
-\
+<br/>
 - `Script Name:` **import_extensions.py**
 - `Script Description: ` This script will automatically import all Qlik sense extensions within a folder of your choice
 - `Paramaters`
   - `filepath` Example) C:\Data
 - `Full Script Example`: python import_extensions.py C:\Data
-\
+<br/>
 - `Script Name:` **screenshots.py**
 - `Script Description: ` This script will automatically take a screenshot of all the sheets within an application of your choice and upload it into the media content of the app. You will need to have Chrome installed for this to work.
 - `Paramaters`
