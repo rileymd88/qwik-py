@@ -3,6 +3,7 @@ import os
 import sys
 from config import qrs 
 
+
 try:
     os.listdir(sys.argv[1])
 except NotADirectoryError:

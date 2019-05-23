@@ -137,7 +137,7 @@ class ConnectQlik:
                 response = session.get("https://{0}/{1}?filter={2} '{3}'&xrfkey={4}".format 
                                        (self.server, endpoint, filterparam, filtervalue, xrf),
                                         headers=headers, verify=self.root, cert=self.certificate)
-            return response.content
+            return response.content      
 
     def delete(self, endpoint):
         """
@@ -690,15 +690,13 @@ class ConnectQlik:
         with open(filename, 'rb') as extension:
             return self.post(path, extension)
 
-    def export_extension(self, extName):
-        """
-        Exports extensions
-        :param filename: extname extension objects
-        :returns: HTTP Status Code
-        """
+    def export_extension(self, extName, filepath):
         path = 'api/wes/v1/extensions/export/{0}'.format(extName)
-        print(path)
-        return self.get(path)
+        data = self.get(path)
+        print(data)
+        with open('{0}/{1}'.format(filepath, extName), 'wb') as file:
+            file.write(data)
+        return 'Extension: {0} written to {1}'.format(extName, filepath)
 
     def copy_app(self, appid, name):
         """
