@@ -6,7 +6,7 @@ Click==7.0
 cryptography==2.2.2
 idna==2.7
 ntlm-auth==1.2.0
-Pillow==5.4.1
+Pillow==9.0.1
 pycparser==2.18
 requests==2.19.1
 requests-ntlm==1.1.0
